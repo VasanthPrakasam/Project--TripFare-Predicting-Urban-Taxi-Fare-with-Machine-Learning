@@ -163,54 +163,43 @@
 - **Urban Planner**: Transportation analytics and optimization
 
 ---
+# === Project Configuration ===
+project_name = "Project--TripFare-Predicting-Urban-Taxi-Fare-with-Machine-Learning"
+folders = [
+    "Cleaned Data",
+    "Data",
+    "ML Model",
+    "Notebook",
+    "Project_Excellence_Series",
+    "Requirements"
+]
+## 📌 Overview
+This project predicts taxi fares based on trip details such as pickup and dropoff locations, trip distance, passenger count, and time of day.
 
-## 🚀 Getting Started
+## 📂 Project Structure
+- **Cleaned Data** → Processed datasets after cleaning
+- **Data** → Raw datasets
+- **ML Model** → Trained models & scripts
+- **Notebook** → Jupyter notebooks for EDA & model training
+- **Project_Excellence_Series** → Documentation & presentations
+- **Requirements** → Dependencies & environment setup
 
-### **Prerequisites** (Don't worry, we'll guide you!)
+## 📊 Features
+- Haversine distance calculation
+- Feature engineering (time-based & distance-based)
+- Outlier detection
+- Exploratory Data Analysis (EDA)
+- Machine Learning model training
+
+## 🚀 How to Run
 ```bash
-# What you need installed:
-Python 3.8+
-Jupyter Notebook or Google Colab
-Basic understanding of Python (we'll help you along the way!)
-```
+# Clone repository
+git clone https://github.com/yourusername/{project_name}.git
+cd {project_name}
 
-### **Quick Start** ⚡
-```bash
-# 1. Clone the project
-git clone https://github.com/yourusername/tripfare-prediction.git
+# Install dependencies
+pip install -r Requirements/requirements.txt
 
-# 2. Install requirements
-pip install -r requirements.txt
-
-# 3. Open the notebook
-jupyter notebook TripFare_Analysis.ipynb
-
-# 4. Follow along step by step!
-```
-
-### **Project Structure** 📁
-```
-tripfare-prediction/
-│
-├── 📊 data/
-│   ├── raw_taxi_data.csv          # Original dataset
-│   └── processed_data.csv         # Cleaned data
-│
-├── 📓 notebooks/
-│   ├── 01_data_exploration.ipynb  # Understanding the data
-│   ├── 02_feature_engineering.ipynb # Creating new variables
-│   ├── 03_model_building.ipynb    # Training ML models
-│   └── 04_model_evaluation.ipynb  # Comparing performance
-│
-├── 🤖 models/
-│   ├── best_model.pkl            # Saved best model
-│   └── model_comparison.csv      # Performance metrics
-│
-├── 🌐 streamlit_app/
-│   ├── app.py                    # Web application
-│   └── requirements.txt          # App dependencies
-│
-└── 📋 README.md                  # This guide!
 ```
 
 ---
