@@ -1,1 +1,0 @@
-VendorID,passenger_count,RatecodeID,payment_type,total_amount,pickup_area,dropoff_area,trip_distance_miles,trip_duration_minutes,pickup_month,pickup_weekday_name,pickup_hour,dropoff_month,dropoff_weekday_name,dropoff_hour,is_pm,is_night,is_suspicious,zero_fare_but_trip,no_passenger_anomaly
